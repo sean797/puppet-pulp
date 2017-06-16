@@ -27,7 +27,7 @@ gem 'puppet-blacksmith', '>= 3.1.0', {"groups"=>["development"]}
 gem 'json', '~> 1.0', {"platforms"=>["ruby_19"], "groups"=>["test"]}
 gem 'json_pure', '~> 1.0', {"platforms"=>["ruby_19"], "groups"=>["test"]}
 gem 'beaker-rspec', {"groups"=>["system_tests"]}
-gem 'beaker-module_install_helper', {"groups"=>["system_tests"]}
+gem 'beaker-module_install_helper', :git => 'https://github.com/puppetlabs/beaker-module_install_helper.git', :ref => 'f6356', :groups => ["system_tests"]
 gem 'beaker-puppet_install_helper', {"groups"=>["system_tests"]}
 gem 'metadata-json-lint'
 gem 'kafo_module_lint'
